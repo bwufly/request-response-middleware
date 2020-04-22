@@ -52,5 +52,6 @@ class RequestAndResponseLog
             'response_data' => json_encode($response_data),
         ];
         SaveLogJob::dispatch($data);
+        return $response;
     }
 }

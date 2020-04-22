@@ -49,6 +49,6 @@ class SaveLogJob implements ShouldQueue
     {
         $this->table = Config::get('requestLog.table');
         // 插入到数据库 TODO 暂时只支持mysql
-        DB::table($this->table)->create($this->data);
+        DB::table($this->table)->insert($this->data);
     }
 }
