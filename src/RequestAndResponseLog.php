@@ -1,6 +1,6 @@
 <?php
 
-namespace Wufly;
+namespace Wufly\Log;
 
 use Closure;
 use Wufly\Jobs\SaveLogJob;

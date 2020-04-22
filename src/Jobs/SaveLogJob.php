@@ -1,6 +1,6 @@
 <?php
 
-namespace Wufly\Jobs;
+namespace Wufly\Log\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

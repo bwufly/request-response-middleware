@@ -1,6 +1,6 @@
 <?php
 
-namespace Wufly;
+namespace Wufly\Log;
 
 use Illuminate\Support\ServiceProvider;
 
