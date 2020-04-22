@@ -1,12 +1,10 @@
 <?php
 
-namespace Wufly\Log;
-
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRequestLogEntriesTable extends Migration
+class CreateRequestLogsTable extends Migration
 {
     /**
      * The database schema.
