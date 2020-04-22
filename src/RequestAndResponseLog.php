@@ -18,7 +18,7 @@ class RequestAndResponseLog
      */
     public function handle($request, Closure $next)
     {
-        if (!Config::get('requestLog.enable')) {
+        if (!Config::get('requestLog.enabled')) {
             return $next($request);
         }
         $requestId = (new Request())->generate();
@@ -39,7 +39,7 @@ class RequestAndResponseLog
         // 获取响应的header头
         $response_headers = $response->headers->all();
         // 获取响应的数据
-        $response_data = $response->original;
+        $response_data = $response->getContent();
 
         $data = [
             'request_id' => $requestId,
