@@ -3,8 +3,9 @@
 namespace Wufly\Log;
 
 use Closure;
-use Wufly\Jobs\SaveLogJob;
-use Wufly\Request;
+use Wufly\Log\Jobs\SaveLogJob;
+use Wufly\Log\Request;
+use Illuminate\Support\Facades\Config;
 
 class RequestAndResponseLog
 {
