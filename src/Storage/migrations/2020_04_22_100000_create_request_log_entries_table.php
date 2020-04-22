@@ -6,7 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTelescopeEntriesTable extends Migration
+class CreateRequestLogEntriesTable extends Migration
 {
     /**
      * The database schema.
