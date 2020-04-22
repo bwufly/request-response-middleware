@@ -20,7 +20,7 @@
         },
         "laravel": {
             "providers": [
-                "Wufly\\RequestLogServiceProvider"
+                "Wufly\\Log\\RequestLogServiceProvider"
             ]
         }
     },
