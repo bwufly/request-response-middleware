@@ -22,9 +22,9 @@ class RequestLogServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if (!config('telescope.enabled')) {
-            return;
-        }
+        // if (!config('requestLog.enabled')) {
+        //     return;
+        // }
         //publish
         $this->publishes([
             __DIR__ . '/config/requestLog.php' => config_path('requestLog.php'),
