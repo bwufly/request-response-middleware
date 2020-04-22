@@ -1,0 +1,32 @@
+{
+    "name": "wufly632/request-response-middleware",
+    "description": "A middleware that records request and response data",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "wufly",
+            "email": "wfxykzd@163.com"
+        }
+    ],
+    "type": "package",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Wufly\\RequestLogServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Wufly\\": "src/"
+        }
+    }
+}
