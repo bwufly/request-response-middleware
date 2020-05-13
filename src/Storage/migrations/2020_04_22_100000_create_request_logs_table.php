@@ -35,11 +35,11 @@ class CreateRequestLogsTable extends Migration
             $table->uuid('request_id');
             $table->string('request_url', 255);
             $table->string('method', 10);
-            $table->longText('request_headers');
-            $table->longText('request_data');
+            $table->json('request_headers');
+            $table->json('request_data');
             $table->string('response_status', 3);
-            $table->longText('response_headers');
-            $table->longText('response_data');
+            $table->json('response_headers');
+            $table->json('response_data');
             $table->dateTime('created_at')->nullable();
 
             $table->unique('request_id');
