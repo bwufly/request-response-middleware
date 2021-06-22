@@ -12,7 +12,8 @@
     "type": "package",
     "license": "MIT",
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=5.5.9",
+        "wufly/logstash": "^0.1.4"
     },
     "extra": {
         "branch-alias": {

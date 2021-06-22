@@ -8,5 +8,9 @@
 
 return [
     'enabled'       => env('REQUESTLOG_ENABLED', true),
-    'table' => env('REQUESTLOG_TABLE', 'request_logs'),
+    'table' => [
+        'save' => env('REQUESTLOG_TABLE_SAVE', false),
+        'name' => env('REQUESTLOG_TABLE_NAME', 'request_logs')
+    ],
+    'request_id_name' => env('REQUEST_ID_NAME', 'request-id'),
 ];

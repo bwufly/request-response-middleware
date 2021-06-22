@@ -1,0 +1,85 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cc971c2d575dc786732e4051a7d973bf",
+    "packages": [
+        {
+            "name": "wufly/logstash",
+            "version": "0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bwufly/logstash.git",
+                "reference": "d4280b4ae4b3a331407ddb25b612f4b14da770b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bwufly/logstash/zipball/d4280b4ae4b3a331407ddb25b612f4b14da770b6",
+                "reference": "d4280b4ae4b3a331407ddb25b612f4b14da770b6",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wufly\\Provider\\LogstashServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wufly\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wufly",
+                    "email": "wfxykzd@163.com"
+                }
+            ],
+            "description": "Log formatting to facilitate logstash collection",
+            "keywords": [
+                "ELK",
+                "log",
+                "logstash",
+                "日志收集"
+            ],
+            "support": {
+                "issues": "https://github.com/bwufly/logstash/issues",
+                "source": "https://github.com/bwufly/logstash/tree/0.1.4"
+            },
+            "time": "2020-08-21T02:58:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.9"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
