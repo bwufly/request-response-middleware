@@ -32,19 +32,19 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'ec8dfa566baf61ea9d4c9dc9bfa65d780d095dcd',
+    'reference' => 'fb41fc7ae2dc1b06f4c7c8073d69a130c0ded5fe',
     'name' => 'wufly632/request-response-middleware',
   ),
   'versions' => 
   array (
     'wufly/logstash' => 
     array (
-      'pretty_version' => '0.1.5',
-      'version' => '0.1.5.0',
+      'pretty_version' => '1.0',
+      'version' => '1.0.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'cf0491182ebdbf0961dabfef4fd6a782e056dcd2',
+      'reference' => 'ce44e43df5a104d881eb4c6eb33f08a6fecf4953',
     ),
     'wufly632/request-response-middleware' => 
     array (
@@ -53,7 +53,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'ec8dfa566baf61ea9d4c9dc9bfa65d780d095dcd',
+      'reference' => 'fb41fc7ae2dc1b06f4c7c8073d69a130c0ded5fe',
     ),
   ),
 );

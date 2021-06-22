@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f20a2f78e849f9411607f1d00413e0f1",
+    "content-hash": "eb9b0816f6e9579b46862ff277730da2",
     "packages": [
         {
             "name": "wufly/logstash",
-            "version": "0.1.5",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bwufly/logstash.git",
-                "reference": "cf0491182ebdbf0961dabfef4fd6a782e056dcd2"
+                "reference": "ce44e43df5a104d881eb4c6eb33f08a6fecf4953"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bwufly/logstash/zipball/cf0491182ebdbf0961dabfef4fd6a782e056dcd2",
-                "reference": "cf0491182ebdbf0961dabfef4fd6a782e056dcd2",
+                "url": "https://api.github.com/repos/bwufly/logstash/zipball/ce44e43df5a104d881eb4c6eb33f08a6fecf4953",
+                "reference": "ce44e43df5a104d881eb4c6eb33f08a6fecf4953",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -66,9 +66,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bwufly/logstash/issues",
-                "source": "https://github.com/bwufly/logstash/tree/0.1.5"
+                "source": "https://github.com/bwufly/logstash/tree/1.0"
             },
-            "time": "2021-05-27T11:22:54+00:00"
+            "time": "2021-06-22T08:43:08+00:00"
         }
     ],
     "packages-dev": [],
