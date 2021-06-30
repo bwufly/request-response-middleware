@@ -58,7 +58,7 @@ class RequestAndResponseLog
         ];
         Logstash::channel('request-and-response-log')->info('', $data);
 
-        if (!Config::get('requestLog.table.save')) {
+        if (Config::get('requestLog.table.save')) {
             SaveLogJob::dispatch($data);
         }
         return $response;
